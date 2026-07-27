@@ -1,0 +1,9 @@
+# Requests a review from the maintainer on every pull request, including the ones
+# Dependabot opens. This replaces the `reviewers` key of dependabot.yml, which
+# GitHub removed in 2025.
+#
+# It only requests a review, it does not block merging: the branch ruleset does not
+# enable "Require review from Code Owners", so auto-merge on patch and minor updates
+# still goes through once CI passes.
+
+* @mael-app

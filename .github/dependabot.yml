@@ -3,7 +3,7 @@ version: 2
 updates:
   # Patch and minor updates are grouped into a single pull request so the
   # auto-merge workflow has one thing to approve per week. Major updates are
-  # deliberately left out of the group: they arrive as individual pull requests
+  # deliberately left out of the groups: they arrive as individual pull requests
   # and are never merged automatically.
   - package-ecosystem: npm
     directory: /
@@ -11,12 +11,35 @@ updates:
       interval: weekly
       day: monday
     open-pull-requests-limit: 5
+    assignees:
+      - mael-app
     # Conventional Commits, so Dependabot's history matches everyone else's.
     commit-message:
       prefix: "chore(deps)"
       prefix-development: "chore(deps-dev)"
+
+    # `agents` pins @modelcontextprotocol/sdk to an exact version, so bumping the
+    # SDK on its own installs two incompatible copies and breaks the typecheck.
+    # Dependabot has no way to express "only propose this if it resolves", and a
+    # group still opens a pull request when a single member has an update. The SDK
+    # is therefore excluded and bumped by hand together with `agents`. Drop this
+    # entry once `agents` accepts a range rather than a pinned version.
+    ignore:
+      - dependency-name: "@modelcontextprotocol/sdk"
+
     groups:
+      # Kept as its own group so that the day the ignore above is lifted, the two
+      # coupled packages travel in the same pull request instead of separate ones.
+      mcp-runtime:
+        patterns:
+          - agents
+          - "@modelcontextprotocol/*"
+        update-types:
+          - minor
+          - patch
       npm-minor-and-patch:
+        patterns:
+          - "*"
         update-types:
           - minor
           - patch
@@ -29,6 +52,8 @@ updates:
       interval: weekly
       day: monday
     open-pull-requests-limit: 5
+    assignees:
+      - mael-app
     commit-message:
       prefix: "ci(deps)"
     groups:
