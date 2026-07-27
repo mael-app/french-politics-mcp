@@ -65,7 +65,7 @@ keep `corpus:check` green, since CI rebuilds the corpus from the committed
 `data/text/`.
 
 Actions are pinned by commit SHA. Dependabot keeps them current and auto-merges patch
-and minor updates once CI passes; major updates need review. See `.github/README.md`
+and minor updates once CI passes; major updates need review. See `.github/AUTOMATION.md`
 for the branch protection settings this relies on.
 
 ## Invariants

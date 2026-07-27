@@ -32,7 +32,7 @@ jobs:
       # `--auto` queues the merge; GitHub only performs it once every required
       # status check passes. Branch protection is therefore load-bearing here:
       # without required checks on main, this would merge immediately and
-      # unverified. See .github/README.md.
+      # unverified. See .github/AUTOMATION.md.
       - name: Enable auto-merge for patch and minor updates
         if: steps.metadata.outputs.update-type != 'version-update:semver-major'
         run: gh pr merge --auto --squash "$PR_URL"

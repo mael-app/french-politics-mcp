@@ -165,6 +165,8 @@ La recherche sémantique (Vectorize + embeddings multilingues via Workers AI, qu
 
 Les règles de contribution, la convention de commit et la marche à suivre pour ajouter une source au corpus sont dans [CONTRIBUTING.md](CONTRIBUTING.md). Pour signaler une faille, voir [SECURITY.md](SECURITY.md).
 
+La CI, la configuration Dependabot et les réglages de protection de branche dont elle dépend sont décrits dans [.github/AUTOMATION.md](.github/AUTOMATION.md).
+
 ## Licence
 
 Le **code** est sous [Apache-2.0](LICENSE) : `src/`, `ingest/`, le schéma de base de données, le manifeste des sources, la taxonomie des thèmes et les métadonnées des partis.
