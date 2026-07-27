@@ -47,7 +47,14 @@ npm run stem:check     # convergence du stemmer français
 npm run corpus:check   # invariants du corpus
 ```
 
-Ces trois commandes tournent aussi en CI. Le hook de pre-commit lance déjà le typecheck.
+Et, serveur démarré dans un autre terminal :
+
+```bash
+npm run dev
+npm run smoke          # session MCP réelle contre le serveur
+```
+
+Ces quatre commandes tournent aussi en CI. Le hook de pre-commit lance déjà le typecheck.
 
 ## Convention de commit
 

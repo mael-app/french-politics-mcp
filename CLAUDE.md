@@ -42,6 +42,7 @@ npm run dev              # wrangler dev on :8787
 npm run typecheck
 npm run ingest           # fetch, extract, normalize, build-sql
 npm run corpus:check     # verify corpus invariants
+npm run smoke            # drive a real MCP session against a running server
 npm run stem:check       # verify stemmer convergence
 npm run db:reset:local   # apply schema + seed to local SQLite
 ```
@@ -60,8 +61,8 @@ job and touches their Cloudflare account. Build and verify locally instead:
 ## CI
 
 `.github/workflows/ci.yml` runs on every push to `main` and every pull request:
-typecheck, stemmer check, offline corpus rebuild, corpus invariants, Worker bundle.
-It never contacts Cloudflare. Any change to the ingestion pipeline or the stemmer must
+typecheck, stemmer check, offline corpus rebuild, corpus invariants, Worker bundle,
+and a live MCP smoke test. It never contacts Cloudflare. Any change to the ingestion pipeline or the stemmer must
 keep `corpus:check` green, since CI rebuilds the corpus from the committed
 `data/text/`.
 

@@ -4,7 +4,7 @@
 
 | Workflow | Trigger | What it does |
 |---|---|---|
-| `ci.yml` | push to `main`, every pull request | typecheck, stemmer check, offline corpus rebuild, corpus invariants, Worker bundle |
+| `ci.yml` | push to `main`, every pull request | typecheck, stemmer check, offline corpus rebuild, corpus invariants, Worker bundle, live MCP smoke test |
 | `dependabot-auto-merge.yml` | pull requests opened by Dependabot | queues auto-merge for patch and minor updates, comments on major ones |
 
 CI never contacts Cloudflare. `wrangler deploy --dry-run` bundles the Worker locally,
@@ -49,6 +49,19 @@ block grants more, so the elevation is explicit and scoped.
 
 **The actor is verified.** The auto-merge job runs only when the pull request author
 is `dependabot[bot]`, so no other contributor can reach the elevated permissions.
+
+**Compiling is not answering.** CI boots the Worker and drives a real MCP client
+session (`npm run smoke`): every party must be quoted with a source, and a query
+outside the corpus must return nothing. Without it, a dependency bump that breaks the
+server at runtime would pass typecheck and bundle, then auto-merge. That is not
+hypothetical: `agents` 0.19 to 0.20 merged itself and pulled three beta packages into
+the tree, and only a manual run proved the server still worked.
+
+**Pre-1.0 packages are treated as majors.** Semver only guarantees compatibility from
+1.0.0 onwards, so a 0.19 to 0.20 bump is allowed to break. Minor updates of such
+packages are left for review. Grouped pull requests expose no previous version, so
+`agents` is additionally named in an `ALWAYS_REVIEW` list in the workflow. Add to that
+list when another pre-1.0 dependency appears.
 
 **Major updates never merge automatically.** They arrive as individual pull requests
 and get a comment asking for a changelog review. Only patch and minor updates, grouped

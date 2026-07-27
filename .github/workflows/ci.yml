@@ -62,3 +62,26 @@ jobs:
 
       - name: Report bundle size
         run: du -sh dist | cut -f1 | xargs echo "bundle:"
+
+      # Compiling is not the same as answering. Everything above would stay green
+      # on a change that breaks the MCP surface at runtime, which is how a
+      # dependency bump can slip through auto-merge. The steps below drive a real
+      # client session against a running Worker.
+      - name: Load the local database
+        run: npm run db:reset:local
+
+      - name: Start the Worker
+        run: |
+          npx wrangler dev --port 8787 > /tmp/wrangler.log 2>&1 &
+          for _ in $(seq 1 45); do
+            curl -sf -m 2 http://localhost:8787/health >/dev/null && exit 0
+            sleep 2
+          done
+          echo "Worker did not come up:" && cat /tmp/wrangler.log && exit 1
+
+      - name: Smoke test the MCP surface
+        run: npm run smoke
+
+      - name: Worker logs on failure
+        if: failure()
+        run: cat /tmp/wrangler.log

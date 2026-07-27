@@ -29,22 +29,60 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
+      # Semver only guarantees compatibility from 1.0.0 onwards: a 0.19 to 0.20
+      # bump is allowed to break, and one did, pulling three beta packages into
+      # the tree unreviewed. Pre-1.0 minor updates are therefore treated like
+      # majors. Values are passed through the environment rather than
+      # interpolated into the script, so metadata can never become shell.
+      - name: Decide whether this can merge itself
+        id: decision
+        env:
+          UPDATE_TYPE: ${{ steps.metadata.outputs.update-type }}
+          PREVIOUS_VERSION: ${{ steps.metadata.outputs.previous-version }}
+          DEPENDENCY_NAMES: ${{ steps.metadata.outputs.dependency-names }}
+          # Packages still below 1.0.0. A grouped pull request exposes no
+          # previous-version, so the version check alone would miss them there.
+          ALWAYS_REVIEW: agents
+        run: |
+          needs_review() {
+            for name in $(echo "$DEPENDENCY_NAMES" | tr ',' ' '); do
+              for watched in $ALWAYS_REVIEW; do
+                [ "$name" = "$watched" ] && return 0
+              done
+            done
+            return 1
+          }
+
+          if [ "$UPDATE_TYPE" = "version-update:semver-major" ]; then
+            echo "merge=false" >> "$GITHUB_OUTPUT"
+            echo "reason=a major version update" >> "$GITHUB_OUTPUT"
+          elif [ "$UPDATE_TYPE" != "version-update:semver-patch" ] && needs_review; then
+            echo "merge=false" >> "$GITHUB_OUTPUT"
+            echo "reason=a pre-1.0 package, where semver guarantees nothing" >> "$GITHUB_OUTPUT"
+          elif [ "$UPDATE_TYPE" = "version-update:semver-minor" ] && case "$PREVIOUS_VERSION" in 0.*) true;; *) false;; esac; then
+            echo "merge=false" >> "$GITHUB_OUTPUT"
+            echo "reason=a minor update of a pre-1.0 package, where semver guarantees nothing" >> "$GITHUB_OUTPUT"
+          else
+            echo "merge=true" >> "$GITHUB_OUTPUT"
+          fi
+
       # `--auto` queues the merge; GitHub only performs it once every required
       # status check passes. Branch protection is therefore load-bearing here:
       # without required checks on main, this would merge immediately and
       # unverified. See .github/AUTOMATION.md.
-      - name: Enable auto-merge for patch and minor updates
-        if: steps.metadata.outputs.update-type != 'version-update:semver-major'
+      - name: Enable auto-merge
+        if: steps.decision.outputs.merge == 'true'
         run: gh pr merge --auto --squash "$PR_URL"
         env:
           PR_URL: ${{ github.event.pull_request.html_url }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Leave major updates for review
-        if: steps.metadata.outputs.update-type == 'version-update:semver-major'
+      - name: Leave the rest for review
+        if: steps.decision.outputs.merge == 'false'
         run: |
           gh pr comment "$PR_URL" --body \
-            "Major version update, so auto-merge is disabled. Review the changelog before merging."
+            "Auto-merge is disabled here: this is $REASON. Review the changelog before merging."
         env:
           PR_URL: ${{ github.event.pull_request.html_url }}
+          REASON: ${{ steps.decision.outputs.reason }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

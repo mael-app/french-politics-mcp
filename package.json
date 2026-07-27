@@ -9,6 +9,7 @@
     "dev": "wrangler dev",
     "deploy": "wrangler deploy",
     "typecheck": "tsc --noEmit",
+    "smoke": "tsx scripts/smoke-test.ts",
     "cf-typegen": "wrangler types",
     "ingest": "npm run ingest:fetch && npm run ingest:extract && npm run ingest:normalize && npm run ingest:sql",
     "ingest:fetch": "tsx ingest/fetch.ts",
