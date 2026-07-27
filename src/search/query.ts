@@ -34,15 +34,22 @@ export function buildMatchExpression(query: string): string | null {
 }
 
 /**
+ * Cap on the required coverage. Beyond this, long questions phrased loosely would
+ * stop matching passages that do answer them.
+ */
+const MAX_REQUIRED_COVERAGE = 3;
+
+/**
  * How many query stems a passage must contain to be kept.
  *
  * FTS5 combines terms with OR, so without this a passage sharing a single generic
- * word with the query comes back as if it answered it. A short query cannot demand
- * more than one term; from three onwards, requiring two removes that noise without
- * discarding real answers.
+ * word with the query comes back as if it answered it. The threshold scales with
+ * query length: a flat requirement of two let a six-word question through on any
+ * two common words, which is how a question about space exploration came back with
+ * a passage on ecological transition.
  */
 export function requiredCoverage(stemCount: number): number {
-  return stemCount <= 2 ? 1 : 2;
+  return Math.min(MAX_REQUIRED_COVERAGE, Math.max(1, Math.ceil(stemCount / 2)));
 }
 
 /**
