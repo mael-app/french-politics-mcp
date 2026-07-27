@@ -19,7 +19,7 @@
     "stem:check": "tsx ingest/stem-check.ts",
     "db:reset:local": "wrangler d1 execute DB --local --file=data/sql/schema.sql && wrangler d1 execute DB --local --file=data/sql/seed.sql",
     "db:reset:remote": "wrangler d1 execute DB --remote --file=data/sql/schema.sql && wrangler d1 execute DB --remote --file=data/sql/seed.sql",
-    "prepare": "husky"
+    "prepare": "husky && wrangler types"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.29.0",

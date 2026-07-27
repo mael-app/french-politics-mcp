@@ -37,7 +37,7 @@ data/raw/           downloaded sources, gitignored except checksums.json
 ## Commands
 
 ```bash
-npm install              # also installs the git hooks
+npm install              # installs git hooks and generates worker-configuration.d.ts
 npm run dev              # wrangler dev on :8787
 npm run typecheck
 npm run ingest           # fetch, extract, normalize, build-sql

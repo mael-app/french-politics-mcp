@@ -23,14 +23,14 @@ Le projet ne prend pas parti. Concrètement :
 ```bash
 git clone <url-du-dépôt>
 cd french-politics-mcp
-npm install                # installe aussi les hooks git
+npm install                # installe les hooks git et génère les types Worker
 npm run ingest:normalize   # reconstruit data/corpus/corpus.json depuis data/text/
 npm run ingest:sql         # génère data/sql/seed.sql
 npm run db:reset:local     # charge le SQLite local
 npm run dev                # http://localhost:8787
 ```
 
-`corpus.json` et `seed.sql` sont des artefacts générés, absents du dépôt. Ils se reconstruisent hors ligne depuis le `data/text/` versionné : seule l'étape `ingest:fetch` a besoin du réseau.
+`worker-configuration.d.ts`, `corpus.json` et `seed.sql` sont des artefacts générés, absents du dépôt. Le premier est produit par `npm install` (via `prepare`), les deux autres par les commandes ci-dessus. Tout se reconstruit hors ligne : seule l'étape `ingest:fetch` a besoin du réseau.
 
 Pour tester le serveur :
 
