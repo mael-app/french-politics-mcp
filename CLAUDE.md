@@ -54,8 +54,9 @@ On a fresh clone, `corpus.json` and `seed.sql` are absent. Rebuild them offline 
 the committed `data/text/` with `npm run ingest:normalize && npm run ingest:sql`.
 Only `ingest:fetch` touches the network.
 
-**Never run `wrangler deploy` or `db:reset:remote`.** Deployment is the maintainer's
-job and touches their Cloudflare account. Build and verify locally instead:
+**Never run `wrangler deploy` or `db:reset:remote`.** Deployment happens by itself:
+Cloudflare Workers Builds deploys every push to `main`. Reloading the corpus is a
+manual, destructive step the maintainer runs. Build and verify locally instead:
 `wrangler deploy --dry-run` bundles without contacting Cloudflare.
 
 ## CI

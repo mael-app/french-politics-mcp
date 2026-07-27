@@ -7,6 +7,10 @@
 | `ci.yml` | push to `main`, every pull request | typecheck, stemmer check, offline corpus rebuild, corpus invariants, Worker bundle, live MCP smoke test |
 | `dependabot-auto-merge.yml` | pull requests opened by Dependabot | queues auto-merge for patch and minor updates, comments on major ones |
 
+Deployment is not a GitHub Action. Cloudflare Workers Builds is connected to this
+repository and deploys on every push to `main`, which keeps the Cloudflare API token
+out of the repository entirely. See below.
+
 CI never contacts Cloudflare. `wrangler deploy --dry-run` bundles the Worker locally,
 so no credentials are stored in the repository and nothing can be deployed from CI.
 
@@ -92,3 +96,44 @@ request even when a single member of the group has an update. The SDK is therefo
 `ignore`, and moves by hand together with `agents`. The `mcp-runtime` group is kept so
 that the day `agents` accepts a version range, removing the ignore is all it takes for
 the two to travel together.
+
+## Deployment
+
+Cloudflare Workers Builds is connected to the repository and deploys on push:
+
+| Setting | Value |
+|---|---|
+| Production branch | `main` |
+| Build command | `npm run typecheck` |
+| Deploy command | `npx wrangler deploy` |
+| Non-production branches | `npx wrangler versions upload`, preview only |
+
+**No Cloudflare credentials live in this repository.** A GitHub Actions deployment
+would have required storing an API token able to deploy anything to the account, on a
+public repository that installs dependencies weekly. Workers Builds authenticates
+through the Cloudflare GitHub App instead.
+
+The build command is a safety net rather than the real gate: `main` requires the CI
+check to pass before a pull request can merge, so code reaching `main` is already
+typechecked, bundled and smoke tested. It only covers direct pushes that bypass the
+ruleset.
+
+`npm run typecheck` needs `worker-configuration.d.ts`, which is generated rather than
+committed. The `prepare` script regenerates it during the install Cloudflare runs
+before the build.
+
+## Reloading the corpus
+
+Deployment ships code, not data. The Worker bundles nothing and reads everything from
+D1, so a deployment never changes what the server answers.
+
+Reloading is a separate, manual step, run from a maintainer's machine:
+
+```bash
+npm run ingest:sql        # regenerate seed.sql from the committed data/text/
+npm run db:reset:remote
+```
+
+It stays manual on purpose: applying the seed drops every table and rewrites roughly
+44,000 rows, so the live server errors for about a second. Only run it when
+`data/text/`, `ingest/manifest.ts` or the stemmer changed.
