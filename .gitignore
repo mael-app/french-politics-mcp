@@ -1,0 +1,20 @@
+node_modules/
+dist/
+.wrangler/
+.dev.vars
+worker-configuration.d.ts
+.DS_Store
+*.log
+
+# Downloaded sources: re-fetchable with `npm run ingest:fetch` and verifiable
+# against the committed data/raw/checksums.json. The extracted text in
+# data/text/ is what serves as consultable evidence in the repository.
+data/raw/*.pdf
+data/raw/*.html
+
+# Generated artefacts, both rebuilt offline from the committed data/text/:
+#   npm run ingest:normalize  ->  data/corpus/corpus.json
+#   npm run ingest:sql        ->  data/sql/seed.sql
+# schema.sql is handwritten and committed.
+data/corpus/corpus.json
+data/sql/seed.sql

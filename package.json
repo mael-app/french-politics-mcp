@@ -1,0 +1,39 @@
+{
+  "name": "french-politics-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Civis — serveur MCP de citation et comparaison des programmes politiques français",
+  "license": "Apache-2.0",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "typecheck": "tsc --noEmit",
+    "cf-typegen": "wrangler types",
+    "ingest": "npm run ingest:fetch && npm run ingest:extract && npm run ingest:normalize && npm run ingest:sql",
+    "ingest:fetch": "tsx ingest/fetch.ts",
+    "ingest:extract": "tsx ingest/extract.ts",
+    "ingest:normalize": "tsx ingest/normalize.ts",
+    "ingest:sql": "tsx ingest/build-sql.ts",
+    "corpus:check": "tsx ingest/check.ts",
+    "stem:check": "tsx ingest/stem-check.ts",
+    "db:reset:local": "wrangler d1 execute DB --local --file=data/sql/schema.sql && wrangler d1 execute DB --local --file=data/sql/seed.sql",
+    "db:reset:remote": "wrangler d1 execute DB --remote --file=data/sql/schema.sql && wrangler d1 execute DB --remote --file=data/sql/seed.sql",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "agents": "^0.19.0",
+    "zod": "^4.0.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^21.2.1",
+    "@commitlint/config-conventional": "^21.2.0",
+    "@types/node": "^26.1.1",
+    "husky": "^9.1.7",
+    "node-html-parser": "^9.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0",
+    "wrangler": "^4.114.0"
+  }
+}

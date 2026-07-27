@@ -1,0 +1,792 @@
+{
+  "lfi-tdie-transports-2022": {
+    "sha256": "55e20e82109a246dff2e2f080e4d803bd741656607074a96f74ac2b026c181ae",
+    "bytes": 683226,
+    "sourceUrl": "https://tdie.eu/storage/2022/07/Reponse-J.-L.-Melenchon-questionnaire-TDIE-2022.pdf"
+  },
+  "rn-tdie-transports-2022": {
+    "sha256": "6fc4086149d18b6266af04fb884b0e9a93a27c3b56fc291e715d8846bc1e5413",
+    "bytes": 651610,
+    "sourceUrl": "https://tdie.eu/storage/2022/07/Reponse-M.-Le-Pen-questionnaire-TDIE-2022.pdf"
+  },
+  "ps-tdie-transports-2022": {
+    "sha256": "8e32bbe6776e45bb93599b56a4e86f9ddb881a611137d3ecf394a566019742d7",
+    "bytes": 589714,
+    "sourceUrl": "https://tdie.eu/storage/2022/07/Reponse-A.-Hidalgo-questionnaire-TDIE-2022.pdf"
+  },
+  "lr-tdie-transports-2022": {
+    "sha256": "e6f1935acf1f2558925315009cdabaa9a5d0a35d8112ce0d2fda36664064d44c",
+    "bytes": 1440095,
+    "sourceUrl": "https://tdie.eu/storage/2022/07/Reponse-V.-Pecresse-questionnaire-TDIE-2022.pdf"
+  },
+  "lr-projet-outre-mer-2022": {
+    "sha256": "f431e799c464c35f46ea7f3ec285b49ec127cc006bd6f6b97c677228cca54bcf",
+    "bytes": 15028716,
+    "sourceUrl": "https://valeriepecresse.fr/wp-content/uploads/2022/03/OUTREMER-VP2022-HD1.pdf"
+  },
+  "lfi-cnccep-declaration-2022": {
+    "sha256": "2dc0d46164c48c165950bd3a75c7777a8538ac24d3c1989c52922629c4bc0f49",
+    "bytes": 966243,
+    "sourceUrl": "https://www.cnccep.fr/pdfs/Candidat-08-Jean-Luc-Melenchon-Declaration-accessible.pdf"
+  },
+  "rn-cnccep-declaration-2022": {
+    "sha256": "68a296ebf9a7e50956398dd0418c719237f1a7c81ddf4d3f14e467596387aa14",
+    "bytes": 7947546,
+    "sourceUrl": "https://www.cnccep.fr/pdfs/Candidat-06-Marine-Le-Pen-Declaration-accessible.pdf"
+  },
+  "renaissance-cnccep-declaration-2022": {
+    "sha256": "67f312ed6f9920f411e2f1ab41bccec1416b378e01cfee8feebb2f54bcd58b6a",
+    "bytes": 1623154,
+    "sourceUrl": "https://www.cnccep.fr/pdfs/Candidat-07-Emmanuel-Macron-Declaration.pdf"
+  },
+  "ps-cnccep-declaration-2022": {
+    "sha256": "ffeffbfe25e9e85efcad8fab21425684082d21bffe5a4e9404ae8ab12b63d6b9",
+    "bytes": 3981131,
+    "sourceUrl": "https://www.cnccep.fr/pdfs/Candidat-03-Anne-Hidalgo-Declaration.pdf"
+  },
+  "lr-cnccep-declaration-2022": {
+    "sha256": "ea0a3bc08ffd5c3c1610b6bee7657c181da892117a426126c90f47863fc657b2",
+    "bytes": 789740,
+    "sourceUrl": "https://www.cnccep.fr/pdfs/Candidat-09-Valerie-Pecresse-Declaration-accessible.pdf"
+  },
+  "lfi-livrets-2022-agriculture-et-alimentation": {
+    "sha256": "52ccbd5738188c0b2a9a2ea9a3d35e312e57e851ed980e1933de48943f7ddcfe",
+    "bytes": 185022,
+    "sourceUrl": "https://melenchon2027.fr/livrets-2022/agriculture-et-alimentation/"
+  },
+  "lfi-livrets-2022-antiracisme": {
+    "sha256": "77ff3b9c3d87bf420c1b0af02956b51efa84611102804c7035bbe865111f6bee",
+    "bytes": 181206,
+    "sourceUrl": "https://melenchon2027.fr/livrets-2022/antiracisme/"
+  },
+  "lfi-livrets-2022-arts": {
+    "sha256": "3eddf5a524c2d07a932366a66f2f83800cb220148839030c1aeaf98b511c21e3",
+    "bytes": 180213,
+    "sourceUrl": "https://melenchon2027.fr/livrets-2022/arts/"
+  },
+  "lfi-livrets-2022-banques": {
+    "sha256": "70cea03c7c0360cb28b40aa29f051951e8545e6c022c4a887a8ebfafe1ccccc2",
+    "bytes": 188112,
+    "sourceUrl": "https://melenchon2027.fr/livrets-2022/banques/"
+  },
+  "lfi-livrets-2022-condition-animale": {
+    "sha256": "9aab24ca81f67fb9904987139170dbeba00cd5740d07914283959a1024d387e7",
+    "bytes": 179952,
+    "sourceUrl": "https://melenchon2027.fr/livrets-2022/condition-animale/"
+  },
+  "lfi-livrets-2022-constituante": {
+    "sha256": "e96cae972a93c40f23061c7b90ff4bd2d26781f2140f6d026dfb345dbbe80dbd",
+    "bytes": 183221,
+    "sourceUrl": "https://melenchon2027.fr/livrets-2022/constituante/"
+  },
+  "lfi-livrets-2022-defense": {
+    "sha256": "43e0fc6559e0731f119636cc0347b8849680f1f8c25fafe6957de029a26f387d",
+    "bytes": 187683,
+    "sourceUrl": "https://melenchon2027.fr/livrets-2022/defense/"
+  },
+  "lfi-livrets-2022-droit-du-travail-uberisation": {
+    "sha256": "e91dc9094397c523c6e74545fc11f3578f8cd9924df213ef3d5ad6faf4a43200",
+    "bytes": 191347,
+    "sourceUrl": "https://melenchon2027.fr/livrets-2022/droit-du-travail-uberisation/"
+  },
+  "lfi-livrets-2022-eau-bien-commun": {
+    "sha256": "7edaa62f4c65c460995e663bde8e2bbfee1bcc1cfba4f2f2d913c73d01b43fdd",
+    "bytes": 180033,
+    "sourceUrl": "https://melenchon2027.fr/livrets-2022/eau-bien-commun/"
+  },
+  "lfi-livrets-2022-economie-sociale-et-solidaire": {
+    "sha256": "1c39f0b3652eaab0861b16284ddf8e97f80ff10850ac36332c97355efa78e2fc",
+    "bytes": 166252,
+    "sourceUrl": "https://melenchon2027.fr/livrets-2022/economie-sociale-et-solidaire/"
+  },
+  "lfi-livrets-2022-education": {
+    "sha256": "bc78555caa55e46e2703ad20af0a7d34a9533a662f49403d0b1938fe90d13a8c",
+    "bytes": 183039,
+    "sourceUrl": "https://melenchon2027.fr/livrets-2022/education/"
+  },
+  "lfi-livrets-2022-egalite-femmes-hommes": {
+    "sha256": "de785740e6585d229bd2e49a6e04a8378af9a7bca6898396dc2a17b61254b0d8",
+    "bytes": 177721,
+    "sourceUrl": "https://melenchon2027.fr/livrets-2022/egalite-femmes-hommes/"
+  },
+  "lfi-livrets-2022-energie": {
+    "sha256": "223dde6ec341298a7dea4e4e35dd7b090c4a94a7c9bbf7d06793fa6e308f3b2a",
+    "bytes": 172666,
+    "sourceUrl": "https://melenchon2027.fr/livrets-2022/energie/"
+  },
+  "lfi-livrets-2022-enfance": {
+    "sha256": "77be1fab813bcdbf7f4fef87b15a810ccd43e72567abd7785ca9498eca6ef0fe",
+    "bytes": 169827,
+    "sourceUrl": "https://melenchon2027.fr/livrets-2022/enfance/"
+  },
+  "lfi-livrets-2022-enseignement-superieur-et-recherche": {
+    "sha256": "237b750f716db23ede5dfcae8e70dc39a17739ffb6ef269a728d70e88de43f9e",
+    "bytes": 170033,
+    "sourceUrl": "https://melenchon2027.fr/livrets-2022/enseignement-superieur-et-recherche/"
+  },
+  "lfi-livrets-2022-espace": {
+    "sha256": "5580be7f2ed27bb3839b5597f93afc63f0957d9cb679b61d8fac1ad0bde8a737",
+    "bytes": 173365,
+    "sourceUrl": "https://melenchon2027.fr/livrets-2022/espace/"
+  },
+  "lfi-livrets-2022-foret": {
+    "sha256": "95e990326de1f36720d407d8a03f9fcbbe183914e3fec4de93bd96f7765fa164",
+    "bytes": 167726,
+    "sourceUrl": "https://melenchon2027.fr/livrets-2022/foret/"
+  },
+  "lfi-livrets-2022-francaisc2b7es-de-letranger": {
+    "sha256": "3ac73e64c3145b1416bfe46ed129a30b337c7bb10cb64f5f1a098f485c814ceb",
+    "bytes": 151130,
+    "sourceUrl": "https://melenchon2027.fr/livrets-2022/francais%c2%b7es-de-letranger/"
+  },
+  "lfi-livrets-2022-francophonie": {
+    "sha256": "1cbb63d06edc1d2fac0b021f137319f1afd2cdbafe4804df99313f4991dcc0d1",
+    "bytes": 168757,
+    "sourceUrl": "https://melenchon2027.fr/livrets-2022/francophonie/"
+  },
+  "lfi-livrets-2022-handicap": {
+    "sha256": "9a95e85e322f49160740203b40cf7ee475dc4935d3e1cbba8dc0b9686cf94ba6",
+    "bytes": 170213,
+    "sourceUrl": "https://melenchon2027.fr/livrets-2022/handicap/"
+  },
+  "lfi-livrets-2022-jeunesse": {
+    "sha256": "8a1e31518a4a03ce380fcc76b27693bc13236370a4f718965eb824ef75264c54",
+    "bytes": 171084,
+    "sourceUrl": "https://melenchon2027.fr/livrets-2022/jeunesse/"
+  },
+  "lfi-livrets-2022-justice": {
+    "sha256": "c945d05cbcb1a2df11fcf8a574100c48e96949f85d3cdd8b53791c58253a99eb",
+    "bytes": 180844,
+    "sourceUrl": "https://melenchon2027.fr/livrets-2022/justice/"
+  },
+  "lfi-livrets-2022-laicite": {
+    "sha256": "530125f52ae70dca4915df1e1d44b9af8a47b14f1bdb17e96ef2ca142ec279e5",
+    "bytes": 166471,
+    "sourceUrl": "https://melenchon2027.fr/livrets-2022/laicite/"
+  },
+  "lfi-livrets-2022-lgbti": {
+    "sha256": "21de5ea863bdac4d4d4f6ad844e44f0b33cbf88128e07f2e3f7eb4c633a92196",
+    "bytes": 164896,
+    "sourceUrl": "https://melenchon2027.fr/livrets-2022/lgbti/"
+  },
+  "lfi-livrets-2022-logement": {
+    "sha256": "38c7e3b9fbe37f8eb76b831f9e6095df94343de29e3948fe3562fe5ae9e89144",
+    "bytes": 172466,
+    "sourceUrl": "https://melenchon2027.fr/livrets-2022/logement/"
+  },
+  "lfi-livrets-2022-medias": {
+    "sha256": "8256814e2debc1922d9cc55a4fecf78bd6caa5a554825eec096fbd9b7a6d4c1f",
+    "bytes": 183194,
+    "sourceUrl": "https://melenchon2027.fr/livrets-2022/medias/"
+  },
+  "lfi-livrets-2022-mer": {
+    "sha256": "b7f6316048afc69eefd66e5d092efc5860b7a9728d0c7c9da690e42fe77622ca",
+    "bytes": 181795,
+    "sourceUrl": "https://melenchon2027.fr/livrets-2022/mer/"
+  },
+  "lfi-livrets-2022-migrations": {
+    "sha256": "4755e8a924d2576662ce5af52d5fce5c71c8c3850f1ae9627b4a6fe5aa16f993",
+    "bytes": 178241,
+    "sourceUrl": "https://melenchon2027.fr/livrets-2022/migrations/"
+  },
+  "lfi-livrets-2022-numerique": {
+    "sha256": "bf9a67d8b789e79189c535deb51a1b47234f62aa08afdc9c814c29d339b6d3c7",
+    "bytes": 172308,
+    "sourceUrl": "https://melenchon2027.fr/livrets-2022/numerique/"
+  },
+  "lfi-livrets-2022-outre-mer": {
+    "sha256": "14d7a869bea1b30ab3f4ad346bc919fecc089c45d80b4b7f49504c6a8de34665",
+    "bytes": 167997,
+    "sourceUrl": "https://melenchon2027.fr/livrets-2022/outre-mer/"
+  },
+  "lfi-livrets-2022-paix": {
+    "sha256": "c48d5aeacd85a728cbef42586e76f0478227a67caa99687882502956312242f3",
+    "bytes": 188487,
+    "sourceUrl": "https://melenchon2027.fr/livrets-2022/paix/"
+  },
+  "lfi-livrets-2022-planification-ecologique": {
+    "sha256": "5620c75f58d5dccb86ea2e51bb4467c674eea1d5c3ef6c64adbf891aa1d19f30",
+    "bytes": 174092,
+    "sourceUrl": "https://melenchon2027.fr/livrets-2022/planification-ecologique/"
+  },
+  "lfi-livrets-2022-plein-emploi": {
+    "sha256": "2105893622f2243eb4c357b986f72c565bfe7bd618514d550287dd54b5b11fbc",
+    "bytes": 197908,
+    "sourceUrl": "https://melenchon2027.fr/livrets-2022/plein-emploi/"
+  },
+  "lfi-livrets-2022-quartiers-populaires": {
+    "sha256": "e76dee01c8ae3370a951b3a73967782c978f709d8a7eb23502d935fbeb9fd8aa",
+    "bytes": 177861,
+    "sourceUrl": "https://melenchon2027.fr/livrets-2022/quartiers-populaires/"
+  },
+  "lfi-livrets-2022-retraites": {
+    "sha256": "23d36a3890aa04e40eb9ecbfdfbb98c4cd3c8e7c7d361d0b93cbd35e674f1ef3",
+    "bytes": 177668,
+    "sourceUrl": "https://melenchon2027.fr/livrets-2022/retraites/"
+  },
+  "lfi-livrets-2022-ruralite": {
+    "sha256": "1f35dc09018ce9ea99533cf2fa0e31d6206b3d457c99f45a3c36658b47e6363d",
+    "bytes": 178479,
+    "sourceUrl": "https://melenchon2027.fr/livrets-2022/ruralite/"
+  },
+  "lfi-livrets-2022-sante": {
+    "sha256": "353235bcc0de6d4dc98e33c942fc54bd5efb73bcf8f3edc1017ff2e1b72933f3",
+    "bytes": 182352,
+    "sourceUrl": "https://melenchon2027.fr/livrets-2022/sante/"
+  },
+  "lfi-livrets-2022-securite-et-surete": {
+    "sha256": "18d14284146a7f59600552ce09f1daa7ae15c6069236f3a60e34459631e7d53e",
+    "bytes": 198318,
+    "sourceUrl": "https://melenchon2027.fr/livrets-2022/securite-et-surete/"
+  },
+  "lfi-livrets-2022-sport": {
+    "sha256": "41a7a28d388cec07a53b986bd34ef30065207acdd9991b923a15e335d09cc39b",
+    "bytes": 174522,
+    "sourceUrl": "https://melenchon2027.fr/livrets-2022/sport/"
+  },
+  "lfi-livrets-2022-transports": {
+    "sha256": "0a3f1f2071710b6b8e1bee11379715166079e842ca3c3a8bc49c957bd1981ecf",
+    "bytes": 167021,
+    "sourceUrl": "https://melenchon2027.fr/livrets-2022/transports/"
+  },
+  "lfi-livrets-2022-zero-dechet": {
+    "sha256": "c1123d57d7ee15700881a5583dcda82c6dd33aa8dce5aa7486e327f14a5f619c",
+    "bytes": 160729,
+    "sourceUrl": "https://melenchon2027.fr/livrets-2022/zero-dechet/"
+  },
+  "lfi-plans-2022-6e-republique": {
+    "sha256": "00d6950083c3aa4432b67bfd0ddd1a17d5501760e012002af2d2f6f6478ab1a6",
+    "bytes": 190158,
+    "sourceUrl": "https://melenchon2027.fr/plans-2022/6e-republique/"
+  },
+  "lfi-plans-2022-alimentation": {
+    "sha256": "68937a3c4c2c0c9f9967850e0f0cce6ea0654be33edd3c9d41d32528368f35da",
+    "bytes": 208741,
+    "sourceUrl": "https://melenchon2027.fr/plans-2022/alimentation/"
+  },
+  "lfi-plans-2022-europe": {
+    "sha256": "c9c59ed657cb9a2c6c7e1c4bec8dae923ef2f8cbbb0898d1888ff0fd7dab11d5",
+    "bytes": 223665,
+    "sourceUrl": "https://melenchon2027.fr/plans-2022/europe/"
+  },
+  "lfi-plans-2022-feminicides": {
+    "sha256": "7a34dde6900a2819282e3a8ee3b0f3b887d62759b8f618e40437fa7fe0ac1ec5",
+    "bytes": 220535,
+    "sourceUrl": "https://melenchon2027.fr/plans-2022/feminicides/"
+  },
+  "lfi-plans-2022-justice-fiscale": {
+    "sha256": "172000f2726d28d42f5435564a037a465447038f18f13f5c0b463b72409556f4",
+    "bytes": 218176,
+    "sourceUrl": "https://melenchon2027.fr/plans-2022/justice-fiscale/"
+  },
+  "lfi-plans-2022-outre-mer": {
+    "sha256": "022dae53f3534694efcae141c43fd16825002bcf4a276ee60e85ba0613351cf9",
+    "bytes": 200588,
+    "sourceUrl": "https://melenchon2027.fr/plans-2022/outre-mer/"
+  },
+  "lfi-plans-2022-pauvrete": {
+    "sha256": "2ff2a13cc6bfea5d140f196fa4fdd0296ce8c5481432f017a15af72bf6e5e93c",
+    "bytes": 207007,
+    "sourceUrl": "https://melenchon2027.fr/plans-2022/pauvrete/"
+  },
+  "lfi-plans-2022-plein-emploi": {
+    "sha256": "8ff75e1ddf378b7912933f82bd71d47abe50eca51d0e7957f364eb43076931c9",
+    "bytes": 206287,
+    "sourceUrl": "https://melenchon2027.fr/plans-2022/plein-emploi/"
+  },
+  "lfi-plans-2022-pouvoir-dachat": {
+    "sha256": "9711a2b271e0c2c8a8560005827071bfd3fdc868df1973a80919bfbf4b67585a",
+    "bytes": 204915,
+    "sourceUrl": "https://melenchon2027.fr/plans-2022/pouvoir-dachat/"
+  },
+  "lfi-plans-2022-qualifications": {
+    "sha256": "3964160539e5d5442f57488561a029464f4776995c0693d3d1867b103fc534cc",
+    "bytes": 205182,
+    "sourceUrl": "https://melenchon2027.fr/plans-2022/qualifications/"
+  },
+  "lfi-plans-2022-regle-verte": {
+    "sha256": "7161163678f3d6d5168d0d90bc94eccd18c65900b865237071ca220a21600fea",
+    "bytes": 225349,
+    "sourceUrl": "https://melenchon2027.fr/plans-2022/regle-verte/"
+  },
+  "lfi-plans-2022-relocalisation": {
+    "sha256": "2e4653e93e993af68063687b2ed1c461b67dd082682fca0ec9568ba7346fe466",
+    "bytes": 221500,
+    "sourceUrl": "https://melenchon2027.fr/plans-2022/relocalisation/"
+  },
+  "lfi-plans-2022-zero-sans-abri": {
+    "sha256": "0ba00874fac0822fc3f878a3aa34d34b164e674eaf3bbd307dcf5636cdfd6e95",
+    "bytes": 204288,
+    "sourceUrl": "https://melenchon2027.fr/plans-2022/zero-sans-abri/"
+  },
+  "renaissance-notre-action-action-internationale-2022": {
+    "sha256": "13e24d31f2f6b8f8b6f2ce4c4d67a53a5808862dbbcf5ca5946ffae2b2618969",
+    "bytes": 162329,
+    "sourceUrl": "https://web.archive.org/web/20220401145900id_/https://avecvous.fr/notre-action/action-internationale"
+  },
+  "renaissance-notre-action-action-publique-2022": {
+    "sha256": "2eaa87e6262c56d8beb1352b733d21d8dabc0cfdc5939e90cfca4a5c17cd6487",
+    "bytes": 261664,
+    "sourceUrl": "https://web.archive.org/web/20220331080558id_/https://avecvous.fr/notre-action/action-publique"
+  },
+  "renaissance-notre-action-agriculture-et-alimentation-2022": {
+    "sha256": "ed9117a8fda85e549c9a7e37549b8c817f5c4d421d98c4c759894d92bacb1fce",
+    "bytes": 168281,
+    "sourceUrl": "https://web.archive.org/web/20220403220016id_/https://avecvous.fr/notre-action/agriculture-et-alimentation"
+  },
+  "renaissance-notre-action-asile-immigration-et-integration-2022": {
+    "sha256": "21c1423a0df3a9c0db39ef219816cba251f5055c2c94fd9ec4a6d19fa296c8ea",
+    "bytes": 161339,
+    "sourceUrl": "https://web.archive.org/web/20220407133200id_/https://avecvous.fr/notre-action/asile-immigration-et-integration"
+  },
+  "renaissance-notre-action-bien-etre-animal-2022": {
+    "sha256": "354c6805464b06fc1f155233576a675a58a3ea171d183cda045e8b0533718872",
+    "bytes": 153929,
+    "sourceUrl": "https://web.archive.org/web/20220410190726id_/https://avecvous.fr/notre-action/bien-etre-animal"
+  },
+  "renaissance-notre-action-culture-2022": {
+    "sha256": "2c504558e729ecd963269a7a303da6cb7ee1a665acfc7c1946357480034cad7e",
+    "bytes": 266382,
+    "sourceUrl": "https://web.archive.org/web/20220331194245id_/https://avecvous.fr/notre-action/culture"
+  },
+  "renaissance-notre-action-defense-2022": {
+    "sha256": "a9e1de264762a074451daee1847b32ee037a7f3dbe6e8472d1d985bbbf6a689e",
+    "bytes": 159337,
+    "sourceUrl": "https://web.archive.org/web/20220410190709id_/https://avecvous.fr/notre-action/defense"
+  },
+  "renaissance-notre-action-democratie-et-institutions-2022": {
+    "sha256": "de9827020cc61abf5ee52f43fec2bf73659bb610407b924a7e02d164ef5afb2b",
+    "bytes": 161124,
+    "sourceUrl": "https://web.archive.org/web/20220402235235id_/https://avecvous.fr/notre-action/democratie-et-institutions"
+  },
+  "renaissance-notre-action-ecole-2022": {
+    "sha256": "91ed090e8f3ec6259b57b6aa4e856d2c25cbd3a73fa5f68d2cd6be05703677b3",
+    "bytes": 260491,
+    "sourceUrl": "https://web.archive.org/web/20220331212655id_/https://avecvous.fr/notre-action/ecole"
+  },
+  "renaissance-notre-action-economie-sociale-et-solidaire-2022": {
+    "sha256": "816252f1669363788c6503e241417ca77d207f2d200d34e5b11ad3f0442b0a02",
+    "bytes": 157880,
+    "sourceUrl": "https://web.archive.org/web/20220403141113id_/https://avecvous.fr/notre-action/economie-sociale-et-solidaire"
+  },
+  "renaissance-notre-action-egalite-entre-les-femmes-et-les-hommes-2022": {
+    "sha256": "4222ad27c2ed831cfb6915992cc56300106b86cfb209c19b0569b7947466d143",
+    "bytes": 160981,
+    "sourceUrl": "https://web.archive.org/web/20220402140246id_/https://avecvous.fr/notre-action/egalite-entre-les-femmes-et-les-hommes"
+  },
+  "renaissance-notre-action-enfance-2022": {
+    "sha256": "21e5d845afd931da25da4f9e03393e0e7320183859b759acb610dcaec95b62f1",
+    "bytes": 152862,
+    "sourceUrl": "https://web.archive.org/web/20220404182644id_/https://avecvous.fr/notre-action/enfance"
+  },
+  "renaissance-notre-action-enseignement-superieur-et-recherche-2022": {
+    "sha256": "d5c3404e37f15d2f64b8a38f4edc1b811d09f1eefbe7e079f073037e73ce2ab4",
+    "bytes": 164018,
+    "sourceUrl": "https://web.archive.org/web/20220402040822id_/https://avecvous.fr/notre-action/enseignement-superieur-et-recherche"
+  },
+  "renaissance-notre-action-entreprises-et-financement-2022": {
+    "sha256": "abc4c157085853b155465ed0b2131f7e4848ccee754758150269a5ca073ed7f1",
+    "bytes": 177987,
+    "sourceUrl": "https://web.archive.org/web/20220410190729id_/https://avecvous.fr/notre-action/entreprises-et-financement"
+  },
+  "renaissance-notre-action-europe-2022": {
+    "sha256": "80ef02a031b32a7fa7ed5611fb3f75bbb67e8688dfcd6e6043f04f97ff295383",
+    "bytes": 163119,
+    "sourceUrl": "https://web.archive.org/web/20220403141116id_/https://avecvous.fr/notre-action/europe"
+  },
+  "renaissance-notre-action-familles-et-societe-2022": {
+    "sha256": "ddda41b2951e3afc58ce7c2db7ced340a79ff3f701ec6f4c4efb99552fe8d829",
+    "bytes": 258911,
+    "sourceUrl": "https://web.archive.org/web/20220329181724id_/https://avecvous.fr/notre-action/familles-et-societe"
+  },
+  "renaissance-notre-action-finances-publiques-2022": {
+    "sha256": "82a642cc127540bf5e6ff81e6a7eaff4ac90cb5bec8d22939f1cb7d83904003e",
+    "bytes": 158067,
+    "sourceUrl": "https://web.archive.org/web/20220408163212id_/https://avecvous.fr/notre-action/finances-publiques"
+  },
+  "renaissance-notre-action-fiscalite-2022": {
+    "sha256": "6bdfe8076e7d1f871fba505b47120898ed2f3c9f6f37980459275e9812a67247",
+    "bytes": 185205,
+    "sourceUrl": "https://web.archive.org/web/20220328181415id_/https://avecvous.fr/notre-action/fiscalite"
+  },
+  "renaissance-notre-action-francais-de-letranger-2022": {
+    "sha256": "609556cbe0d4d61313b16752ed52927aa04b77c47479e9d55dbb957bfc15e7b3",
+    "bytes": 160260,
+    "sourceUrl": "https://web.archive.org/web/20220406225453id_/https://avecvous.fr/notre-action/francais-de-letranger"
+  },
+  "renaissance-notre-action-grand-age-et-autonomie-2022": {
+    "sha256": "26590532c28b4a15c480b048167a005f917a2992dd2481f5b883714af287cfc9",
+    "bytes": 256359,
+    "sourceUrl": "https://web.archive.org/web/20220331173217id_/https://avecvous.fr/notre-action/grand-age-et-autonomie"
+  },
+  "renaissance-notre-action-handicap-et-societe-inclusive-2022": {
+    "sha256": "dc4b8fae38ce82095c2c5ec9abb5e45df78a614b4887bc6695a86b257837e740",
+    "bytes": 186893,
+    "sourceUrl": "https://web.archive.org/web/20220328174903id_/https://avecvous.fr/notre-action/handicap-et-societe-inclusive"
+  },
+  "renaissance-notre-action-handicap-et-societe-inclusive?fbclid=IwAR1DC8DyP2qk7dTedTAffTGybZ7kuCxKkl81efASYq__EojXHPobvVlkg2E-2022": {
+    "sha256": "3568a4813ec0ae42fbe6fe49f2f0b0b084534a58f0d733900f9877935d901ce8",
+    "bytes": 259738,
+    "sourceUrl": "https://web.archive.org/web/20220329103224id_/https://avecvous.fr/notre-action/handicap-et-societe-inclusive?fbclid=IwAR1DC8DyP2qk7dTedTAffTGybZ7kuCxKkl81efASYq__EojXHPobvVlkg2E"
+  },
+  "renaissance-notre-action-industrie-2022": {
+    "sha256": "d10b1abef613022dca3dc51b330e02899563147ee42e898fd858691f89956989",
+    "bytes": 155726,
+    "sourceUrl": "https://web.archive.org/web/20220408164050id_/https://avecvous.fr/notre-action/industrie"
+  },
+  "renaissance-notre-action-jeunesse-2022": {
+    "sha256": "be4f5e571d5fc99cb024868b1ab0f155579d18fa65367da48759cc8b1b8818c0",
+    "bytes": 257479,
+    "sourceUrl": "https://web.archive.org/web/20220331194344id_/https://avecvous.fr/notre-action/jeunesse"
+  },
+  "renaissance-notre-action-justice-2022": {
+    "sha256": "2b80626c6974f5689e1abbdbe24aee3778f8a25f18cb94e2ba22810e7f7671d2",
+    "bytes": 159980,
+    "sourceUrl": "https://web.archive.org/web/20220410190716id_/https://avecvous.fr/notre-action/justice"
+  },
+  "renaissance-notre-action-laicite-et-defense-des-principes-republicains-2022": {
+    "sha256": "5884503f3f74b6c003ffa4f1dcc293adbc3037f4df09ea7cee622ae86cf2c76f",
+    "bytes": 157597,
+    "sourceUrl": "https://web.archive.org/web/20220408164503id_/https://avecvous.fr/notre-action/laicite-et-defense-des-principes-republicains"
+  },
+  "renaissance-notre-action-logement-2022": {
+    "sha256": "53ca567e112c1d805f1e6dfda1e8821b4cc9c63261753388f4239bb39f24c3fa",
+    "bytes": 257140,
+    "sourceUrl": "https://web.archive.org/web/20220329072513id_/https://avecvous.fr/notre-action/logement"
+  },
+  "renaissance-notre-action-lutte-contre-la-pauvrete-2022": {
+    "sha256": "fb9ad0aa613cd1e9e8bbabdd040b27c1dd597263f0b511fedbb214eeb6a25783",
+    "bytes": 259649,
+    "sourceUrl": "https://web.archive.org/web/20220331205939id_/https://avecvous.fr/notre-action/lutte-contre-la-pauvrete"
+  },
+  "renaissance-notre-action-mer-2022": {
+    "sha256": "8a78eae9f91925997ac485a604f59d0d930d3f76ea86cb8093325d25b9d6bcde",
+    "bytes": 186672,
+    "sourceUrl": "https://web.archive.org/web/20220326173739id_/https://avecvous.fr/notre-action/mer"
+  },
+  "renaissance-notre-action-numerique-2022": {
+    "sha256": "e0b2db77670c92542c71022428275448d053547a8c59a133493804a3b0715e61",
+    "bytes": 161466,
+    "sourceUrl": "https://web.archive.org/web/20220410190719id_/https://avecvous.fr/notre-action/numerique"
+  },
+  "renaissance-notre-action-outre-mer-2022": {
+    "sha256": "e26c5c18c713f46418abb512f74d17d65ccf91a4c3f7038dae34f9ef41c8d6d4",
+    "bytes": 159187,
+    "sourceUrl": "https://web.archive.org/web/20220410190717id_/https://avecvous.fr/notre-action/outre-mer"
+  },
+  "renaissance-notre-action-pouvoir-dachat-2022": {
+    "sha256": "63106ca0702afa7f30c00c7bea992bc6ae3cf3896ed81f5ff95fcce9837e755f",
+    "bytes": 158053,
+    "sourceUrl": "https://web.archive.org/web/20220410190711id_/https://avecvous.fr/notre-action/pouvoir-dachat"
+  },
+  "renaissance-notre-action-sante-2022": {
+    "sha256": "7f5d516921a1c68f5f2972b9d3b9876d53662b58ea80ec16865ed06a2dd9bac8",
+    "bytes": 161631,
+    "sourceUrl": "https://web.archive.org/web/20220401204942id_/https://avecvous.fr/notre-action/sante"
+  },
+  "renaissance-notre-action-securite-2022": {
+    "sha256": "5499884db0677376dfcebb0d665a616c4f73d7f132b3084cf6c490d53a9b23fa",
+    "bytes": 162970,
+    "sourceUrl": "https://web.archive.org/web/20220403221039id_/https://avecvous.fr/notre-action/securite"
+  },
+  "renaissance-notre-action-sport-2022": {
+    "sha256": "da93798a4a82888814ab8c295edd2dcb2a6eee5886cbf9095aeeb6359e53fcb9",
+    "bytes": 187037,
+    "sourceUrl": "https://web.archive.org/web/20220325194336id_/https://avecvous.fr/notre-action/sport"
+  },
+  "renaissance-notre-action-strategie-economique-2022": {
+    "sha256": "b091ea2105aecfde529516e251ce8d5e4224352f375f29f21783766e18c9fbcb",
+    "bytes": 157897,
+    "sourceUrl": "https://web.archive.org/web/20220408163328id_/https://avecvous.fr/notre-action/strategie-economique"
+  },
+  "renaissance-notre-action-territoires-et-collectivites-locales-2022": {
+    "sha256": "e0224cfe92e031aa8f241cc4159c4a9fa9f3855cc9b33d5c2838fcaf4c96e007",
+    "bytes": 164487,
+    "sourceUrl": "https://web.archive.org/web/20220408161210id_/https://avecvous.fr/notre-action/territoires-et-collectivites-locales"
+  },
+  "renaissance-notre-action-transition-ecologique-2022": {
+    "sha256": "6be478c42cee58e3a240eeff685d8b1afdd7d60442efb763ecaf3d9aad09a5f8",
+    "bytes": 141490,
+    "sourceUrl": "https://web.archive.org/web/20220403115608id_/https://avecvous.fr/notre-action/transition-ecologique"
+  },
+  "renaissance-notre-action-transports-2022": {
+    "sha256": "6266d3fcb856fe28cda59efb3edf3aa138d0d056f775be64d178b86527548f78",
+    "bytes": 258219,
+    "sourceUrl": "https://web.archive.org/web/20220331203644id_/https://avecvous.fr/notre-action/transports"
+  },
+  "renaissance-notre-action-travail-2022": {
+    "sha256": "b7f290495a3a795d74f0dc1717f96d7f1845f169449a682f7cf21368a49f9d20",
+    "bytes": 185230,
+    "sourceUrl": "https://web.archive.org/web/20220326111217id_/https://avecvous.fr/notre-action/travail"
+  },
+  "renaissance-notre-action-ville-et-quartiers-2022": {
+    "sha256": "2d5717e8b37e3201a00920253bcf0bab164b5ff4f7f56dfa9da9d8d1be1e13c8",
+    "bytes": 159213,
+    "sourceUrl": "https://web.archive.org/web/20220410190715id_/https://avecvous.fr/notre-action/ville-et-quartiers"
+  },
+  "rn-projet-controle-de-limmigration-2022": {
+    "sha256": "b4fa3a1d57fcc6e0128d26936232d4036735fa549362757f85a2d3790e708987",
+    "bytes": 2547558,
+    "sourceUrl": "https://rassemblementnational.fr/documents/projet/projet-controle-de-limmigration.pdf"
+  },
+  "rn-projet-la-defense-2022": {
+    "sha256": "2deab29659334f54ff55c7ce3cac0bdcd0ffc627669e1644aeda7014c5a725c4",
+    "bytes": 2399058,
+    "sourceUrl": "https://rassemblementnational.fr/documents/projet/projet-la-defense.pdf"
+  },
+  "rn-projet-la-securite-2022": {
+    "sha256": "577525d2af9caf492f34386bbaf063c109e7e3d4fb09935ba469f9e8d97973a9",
+    "bytes": 2411553,
+    "sourceUrl": "https://rassemblementnational.fr/documents/projet/projet-la-securite.pdf"
+  },
+  "rn-projet-outre-mer-2022": {
+    "sha256": "b78461afe10823fd005e7808ffeb91b585ecb6422ed52ffcbc988be6745ac9bb",
+    "bytes": 794587,
+    "sourceUrl": "https://rassemblementnational.fr/documents/projet/projet-outre-mer.pdf"
+  },
+  "rn-projet-lecologie-2022": {
+    "sha256": "e19cd9afe62bb660dbbda44803bc090a772ceda8c2ba89117d2b57aa4da1fa56",
+    "bytes": 1738292,
+    "sourceUrl": "https://rassemblementnational.fr/documents/projet/projet-lecologie.pdf"
+  },
+  "rn-projet-la-protection-de-lenfance-2022": {
+    "sha256": "4c2251b5fc571910fb14f73a11a4d1604a69bff8f7d75c2ef15f3acafe1584fd",
+    "bytes": 1826505,
+    "sourceUrl": "https://rassemblementnational.fr/documents/projet/projet-la-protection-de-lenfance.pdf"
+  },
+  "rn-projet-le-tourisme-2022": {
+    "sha256": "e15f6523f82e907ebb1b8556854b563bcdabe10cbd1ca8ab02fbddcb41b8f587",
+    "bytes": 2770331,
+    "sourceUrl": "https://rassemblementnational.fr/documents/projet/projet-le-tourisme.pdf"
+  },
+  "rn-projet-la-sante-2022": {
+    "sha256": "d353171454ffa759f5b365e6b12a78b58781986872aa2d5993941de6d9d56e29",
+    "bytes": 1809179,
+    "sourceUrl": "https://rassemblementnational.fr/documents/projet/projet-la-sante.pdf"
+  },
+  "rn-projet-le-patrimoine-2022": {
+    "sha256": "2b711697f84accf09e287d57d47240487e94fc488cf8388effefcbeb1462409b",
+    "bytes": 1893380,
+    "sourceUrl": "https://rassemblementnational.fr/documents/projet/projet-le-patrimoine.pdf"
+  },
+  "rn-projet-la-lutte-contre-la-fraude-2022": {
+    "sha256": "1c05265ea2ddf4ec9a61c11f82c871377a61c18c94ddd9a8c3bb3b1d999403be",
+    "bytes": 1797910,
+    "sourceUrl": "https://rassemblementnational.fr/documents/projet/projet-la-lutte-contre-la-fraude.pdf"
+  },
+  "rn-projet-l-agriculture-2022": {
+    "sha256": "24b16cf576f4d4cd2b08ac29c261411dd226e20bae0d96b309d70631bcce58cb",
+    "bytes": 2058578,
+    "sourceUrl": "https://rassemblementnational.fr/documents/projet/projet-l-agriculture.pdf"
+  },
+  "rn-projet-la-famille-2022": {
+    "sha256": "14a534f87203d9c1ad5757af474b796bc6f2d005c049b3996430addfa160cf2e",
+    "bytes": 1547536,
+    "sourceUrl": "https://rassemblementnational.fr/documents/projet/projet-la-famille.pdf"
+  },
+  "rn-projet-l-ecole-2022": {
+    "sha256": "8b32472355c6558c0ba632cec91cfa20f9fbef9647df5655fd9f59cab3b8a7b5",
+    "bytes": 1883612,
+    "sourceUrl": "https://rassemblementnational.fr/documents/projet/projet-l-ecole.pdf"
+  },
+  "rn-projet-la-protection-des-animaux-2022": {
+    "sha256": "4a65b50cc38983f147beb6e764574ce29c9d4d535caed3931f7a0372c85280f6",
+    "bytes": 2155996,
+    "sourceUrl": "https://rassemblementnational.fr/documents/projet/projet-la-protection-des-animaux.pdf"
+  },
+  "rn-projet-le-numerique-2022": {
+    "sha256": "43f080ad466367c1c5378831885a0c294039d3cea087287ed5eb0d0c46933254",
+    "bytes": 11629336,
+    "sourceUrl": "https://rassemblementnational.fr/documents/projet/projet-le-numerique.pdf"
+  },
+  "rn-projet-la-jeunesse-2022": {
+    "sha256": "4b8d5ac7c09a9281998704b0e88d3061d7c2b64292bc79d2e17cae69fa5dea4d",
+    "bytes": 1645630,
+    "sourceUrl": "https://rassemblementnational.fr/documents/projet/projet-la-jeunesse.pdf"
+  },
+  "rn-projet-les-porteurs-de-handicap-2022": {
+    "sha256": "b2fd60a838dd634927990e0b8b2345a373a75f00566ac74bef0dd4f90caccb7d",
+    "bytes": 2236788,
+    "sourceUrl": "https://rassemblementnational.fr/documents/projet/projet-les-porteurs-de-handicap.pdf"
+  },
+  "lr-projet-pouvoir-dachat-2022": {
+    "sha256": "594f84f2b92a3317ad621014295862b13657541bb7487a7b3bea4ac8816e41e3",
+    "bytes": 110886,
+    "sourceUrl": "https://valeriepecresse.fr/projet/pouvoir-dachat/"
+  },
+  "lr-projet-securite-justice-2022": {
+    "sha256": "5426ae9f6cbf07ae2ce753891d5e1a60566f77242170e947aa29c5fd59e40bc6",
+    "bytes": 108970,
+    "sourceUrl": "https://valeriepecresse.fr/projet/securite-justice/"
+  },
+  "lr-projet-immigration-2022": {
+    "sha256": "b1a50161bded898fbd2347886a8f374d8ed698337d0cf36b4034975a522de5e5",
+    "bytes": 107042,
+    "sourceUrl": "https://valeriepecresse.fr/projet/immigration/"
+  },
+  "lr-projet-proteger-nos-aines-2022": {
+    "sha256": "624d4a1b59ec7fe72273a630b515b62784698b38749da85bbca15b4a72b0403c",
+    "bytes": 104103,
+    "sourceUrl": "https://valeriepecresse.fr/projet/proteger-nos-aines/"
+  },
+  "lr-projet-pour-une-societe-du-travail-du-pouvoir-dachat-et-de-la-promotion-professionnelle-2022": {
+    "sha256": "f9e7b249bdf618d2ff0c8ec2ab6131271508b66aefabeb79e171ddb7b4abb5a2",
+    "bytes": 101915,
+    "sourceUrl": "https://valeriepecresse.fr/projet/pour-une-societe-du-travail-du-pouvoir-dachat-et-de-la-promotion-professionnelle/"
+  },
+  "lr-projet-energie-2022": {
+    "sha256": "164ee3c7db847715d6cec7fb65ce200f9ab6c9e19e172541b948277d01adbb93",
+    "bytes": 100622,
+    "sourceUrl": "https://valeriepecresse.fr/projet/energie/"
+  },
+  "lr-projet-environnement-2022": {
+    "sha256": "cdf18b51e9e8b8bdcaa1c83f84bbbdcf636146cb397ddcc8db677436c3556524",
+    "bytes": 107200,
+    "sourceUrl": "https://valeriepecresse.fr/projet/environnement/"
+  },
+  "lr-projet-competitivite-2022": {
+    "sha256": "305c01ec2e79431b0ca3b060e2f05956684510141887e73a826f73c64b9515f6",
+    "bytes": 107133,
+    "sourceUrl": "https://valeriepecresse.fr/projet/competitivite/"
+  },
+  "lr-projet-education-2022": {
+    "sha256": "1faf5d1f32008e3a8c5f08b8b001e054b3968e2eff1c7de8f8e26113574abbef",
+    "bytes": 105852,
+    "sourceUrl": "https://valeriepecresse.fr/projet/education/"
+  },
+  "lr-projet-handicap-2022": {
+    "sha256": "a20598128e86735c903bbec504413bd73970258ffb29308d3c2b071a2b66fda8",
+    "bytes": 101813,
+    "sourceUrl": "https://valeriepecresse.fr/projet/handicap/"
+  },
+  "lr-projet-egalite-femmes-hommes-2022": {
+    "sha256": "e4a2aac39d95597d0145eeb030f8305da1c899e31185c394426395b7d74def5c",
+    "bytes": 104925,
+    "sourceUrl": "https://valeriepecresse.fr/projet/egalite-femmes-hommes/"
+  },
+  "lr-projet-defense-2022": {
+    "sha256": "89c69d751b80f6604b00d80a2004d78c8059f581f4b642375585d94fcce0ff59",
+    "bytes": 107917,
+    "sourceUrl": "https://valeriepecresse.fr/projet/defense/"
+  },
+  "lr-projet-decentralisation-2022": {
+    "sha256": "63fd6a74b80585e06b853ca0be3362550c7e83894160cdbf1a2609afca55bdd4",
+    "bytes": 107252,
+    "sourceUrl": "https://valeriepecresse.fr/projet/decentralisation/"
+  },
+  "lr-projet-europe-2022": {
+    "sha256": "e8d02506e6e2eadf95a85ac3470d3ef67512161f9433fdf5f8a59805c8005e93",
+    "bytes": 97926,
+    "sourceUrl": "https://valeriepecresse.fr/projet/europe/"
+  },
+  "lr-projet-transports-2022": {
+    "sha256": "32fb55b720aa5cfa4b6ea1a8379a48e265e469b3b63cd46b7f07c2b41501e59d",
+    "bytes": 98187,
+    "sourceUrl": "https://valeriepecresse.fr/projet/transports/"
+  },
+  "lr-projet-fiscalite-2022": {
+    "sha256": "a5002c0b86409bd531884a0c2558066904453317f2e891d98660901bb7820e0d",
+    "bytes": 102649,
+    "sourceUrl": "https://valeriepecresse.fr/projet/fiscalite/"
+  },
+  "lr-projet-culture-2022": {
+    "sha256": "f55e13642cdc4dae27d2cc61c5c6d750b7964ce6c51564cf4d85fe43d7124694",
+    "bytes": 102209,
+    "sourceUrl": "https://valeriepecresse.fr/projet/culture/"
+  },
+  "lr-projet-reforme-de-letat-2022": {
+    "sha256": "af1b2c9b2ad29e2a5a538931f36198ee5663eea88a449a980080f83627f59094",
+    "bytes": 101462,
+    "sourceUrl": "https://valeriepecresse.fr/projet/reforme-de-letat/"
+  },
+  "lr-projet-les-francais-de-letranger-2022": {
+    "sha256": "39280aee8b52056c0f5b69d88dae3e16782b782570957912d1c1b7592287f729",
+    "bytes": 100105,
+    "sourceUrl": "https://valeriepecresse.fr/projet/les-francais-de-letranger/"
+  },
+  "lr-projet-pauvrete-2022": {
+    "sha256": "c7f9c80bb85189d86d2bdf410c2442e1fcafea616a2a3447e4b0a778ff327bc5",
+    "bytes": 97786,
+    "sourceUrl": "https://valeriepecresse.fr/projet/pauvrete/"
+  },
+  "lr-projet-proteger-les-francais-et-defendre-nos-interets-dans-le-monde-2022": {
+    "sha256": "1aa79ed6ca71091b23bdeefafdb54e221d48e18715dc967607cd3697345bc651",
+    "bytes": 102599,
+    "sourceUrl": "https://valeriepecresse.fr/projet/proteger-les-francais-et-defendre-nos-interets-dans-le-monde/"
+  },
+  "lr-projet-ruralite-2022": {
+    "sha256": "4dd7208001d39dbb4e81923e3fe2f1024a022db364cb3525c1830ffacbe7c1f7",
+    "bytes": 99613,
+    "sourceUrl": "https://valeriepecresse.fr/projet/ruralite/"
+  },
+  "lr-projet-numerique-2022": {
+    "sha256": "9b60dac518d137240b3dd75f2871874e3387df5a672206f1d41bd8a9f0970bda",
+    "bytes": 102382,
+    "sourceUrl": "https://valeriepecresse.fr/projet/numerique/"
+  },
+  "lr-projet-finances-publiques-2022": {
+    "sha256": "a3c18429908d5c0ffcf45a6af369b527c5f26f8ae3e9925d325a983e0ace95dd",
+    "bytes": 93745,
+    "sourceUrl": "https://valeriepecresse.fr/projet/finances-publiques/"
+  },
+  "lr-projet-enseignement-superieur-et-recherche-2022": {
+    "sha256": "b8f36f6c73d055fd855b4e1522ac56a4584f810fe0eae959af83bcfe248b7917",
+    "bytes": 101608,
+    "sourceUrl": "https://valeriepecresse.fr/projet/enseignement-superieur-et-recherche/"
+  },
+  "lr-projet-sport-2022": {
+    "sha256": "5cde094be0f5b88b4db7e9837e556b1721dfeff86647ace7cf62fb5f34a52d4f",
+    "bytes": 106464,
+    "sourceUrl": "https://valeriepecresse.fr/projet/sport/"
+  },
+  "lr-projet-jeunesse-2022": {
+    "sha256": "961f07292479f8c5c7225b6a4f907b719bc6f083bb2208f38df9b3731c687367",
+    "bytes": 110492,
+    "sourceUrl": "https://valeriepecresse.fr/projet/jeunesse/"
+  },
+  "lr-projet-famille-2022": {
+    "sha256": "3ca2967e5192b0d58b4d924abf9b0ce04e48f40f0006abfe7f1d3b91e4761aab",
+    "bytes": 103626,
+    "sourceUrl": "https://valeriepecresse.fr/projet/famille/"
+  },
+  "lr-projet-sante-2022": {
+    "sha256": "cb829be69f08b273e65494c178f857abee0972f1673783d53c28ed92baa01976",
+    "bytes": 113573,
+    "sourceUrl": "https://valeriepecresse.fr/projet/sante/"
+  },
+  "lr-projet-logement-2022": {
+    "sha256": "33bfdc9995e2e17f128888db9aa8d631505222c4a980c19b28427608eab3a062",
+    "bytes": 104428,
+    "sourceUrl": "https://valeriepecresse.fr/projet/logement/"
+  },
+  "lr-projet-agriculture-2022": {
+    "sha256": "1f3511f9c5b89e4bd67e8d18ba310ed80b9f69671cfc7565671455f5250d0d4b",
+    "bytes": 106605,
+    "sourceUrl": "https://valeriepecresse.fr/projet/agriculture/"
+  },
+  "lfi-avenir-en-commun-2022": {
+    "sha256": "df249374c3241d1bcfcbaba30dced1fbb15d46d940cf2bc8f1125cb6ec1b27ad",
+    "bytes": 4127139,
+    "sourceUrl": "https://web.archive.org/web/20220404215937if_/https://melenchon2022.fr/wp-content/uploads/2022/04/LAvenir-en-commun-le-programme-en-version-abregee.pdf"
+  },
+  "rn-m-la-france-2022": {
+    "sha256": "2228cf277a7b413270225101de778b5adb6c20a372108a3f96a5c317f2f558ea",
+    "bytes": 27768594,
+    "sourceUrl": "https://mlafrance.fr/pdfs/manifeste-m-la-france-programme-presidentiel.pdf"
+  },
+  "renaissance-avec-vous-2022": {
+    "sha256": "e9a608824a051434cca8438da38c836d242283f560e8c7f524f11fb7de20e201",
+    "bytes": 2259719,
+    "sourceUrl": "https://web.archive.org/web/20220327113043if_/https://avecvous.fr/wp-content/uploads/2022/03/Emmanuel-Macron-Avec-Vous-24-pages.pdf"
+  },
+  "ps-hidalgo-programme-2022": {
+    "sha256": "8a78650816befc329920cc67bbee75066ea72ac1451e048e978759d46fa9f2fd",
+    "bytes": 1342146,
+    "sourceUrl": "https://web.archive.org/web/20260308164648if_/https://www.2022avechidalgo.fr/2022avechidalgo/pages/208/attachments/original/1645795527/Anne_Hidalgo_Programme_officiel_en_A4_l%C3%A9ger_1645795527.pdf"
+  },
+  "lr-le-courage-de-faire-2022": {
+    "sha256": "1530b1b5c520518857b70fcedc6cfa8405544cba62d6a8d485ca151c277aace5",
+    "bytes": 2298077,
+    "sourceUrl": "https://valeriepecresse.fr/wp-content/uploads/2022/03/Programme-Valerie-Pecresse.pdf"
+  }
+}

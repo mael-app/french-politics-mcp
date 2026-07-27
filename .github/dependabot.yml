@@ -1,0 +1,38 @@
+version: 2
+
+updates:
+  # Patch and minor updates are grouped into a single pull request so the
+  # auto-merge workflow has one thing to approve per week. Major updates are
+  # deliberately left out of the group: they arrive as individual pull requests
+  # and are never merged automatically.
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+    open-pull-requests-limit: 5
+    # Conventional Commits, so Dependabot's history matches everyone else's.
+    commit-message:
+      prefix: "chore(deps)"
+      prefix-development: "chore(deps-dev)"
+    groups:
+      npm-minor-and-patch:
+        update-types:
+          - minor
+          - patch
+
+  # Actions are pinned by commit SHA, so Dependabot is the only thing that keeps
+  # them current. Without this the pins silently rot.
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+    open-pull-requests-limit: 5
+    commit-message:
+      prefix: "ci(deps)"
+    groups:
+      actions-minor-and-patch:
+        update-types:
+          - minor
+          - patch

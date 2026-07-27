@@ -1,0 +1,3 @@
+# Conventional Commits are enforced here rather than in pre-commit: the message
+# does not exist yet when pre-commit runs.
+npx --no -- commitlint --edit "$1"

@@ -1,0 +1,20 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "french-politics-mcp",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-07-24",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "civis-corpus",
+      // Placeholder : `wrangler d1 create civis-corpus` renvoie l'identifiant
+      // réel à coller ici. Le développement local (`--local`) n'en a pas besoin,
+      // il travaille sur un SQLite dans .wrangler/state.
+      "database_id": "00000000-0000-0000-0000-000000000000"
+    }
+  ]
+}

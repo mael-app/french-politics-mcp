@@ -1,0 +1,2 @@
+# Catches the most common CI failure before it leaves the machine.
+npm run typecheck

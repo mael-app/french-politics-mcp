@@ -1,0 +1,50 @@
+name: Dependabot auto-merge
+
+# Uses `pull_request`, never `pull_request_target`. The latter would run with a
+# privileged token in the context of the base branch, which combined with a
+# checkout of the incoming code is the standard way to leak a repository.
+# Nothing here checks out or executes the pull request's code.
+on: pull_request
+
+permissions:
+  contents: read
+
+jobs:
+  auto-merge:
+    # Dependabot pull requests come from branches in this repository, but the
+    # actor check is what makes the elevated permissions below safe: no other
+    # author can reach this job.
+    if: github.event.pull_request.user.login == 'dependabot[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Read update metadata
+        id: metadata
+        uses: dependabot/fetch-metadata@25dd0e34f4fe68f24cc83900b1fe3fe149efef98 # v3.1.0
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+      # `--auto` queues the merge; GitHub only performs it once every required
+      # status check passes. Branch protection is therefore load-bearing here:
+      # without required checks on main, this would merge immediately and
+      # unverified. See .github/README.md.
+      - name: Enable auto-merge for patch and minor updates
+        if: steps.metadata.outputs.update-type != 'version-update:semver-major'
+        run: gh pr merge --auto --squash "$PR_URL"
+        env:
+          PR_URL: ${{ github.event.pull_request.html_url }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Leave major updates for review
+        if: steps.metadata.outputs.update-type == 'version-update:semver-major'
+        run: |
+          gh pr comment "$PR_URL" --body \
+            "Major version update, so auto-merge is disabled. Review the changelog before merging."
+        env:
+          PR_URL: ${{ github.event.pull_request.html_url }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

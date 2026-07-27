@@ -1,0 +1,75 @@
+Civis (french-politics-mcp)
+Copyright 2026 mael-app
+
+This product includes software developed by the Civis project, licensed under the
+Apache License, Version 2.0. See LICENSE.
+
+
+SCOPE OF THE LICENSE
+--------------------
+
+The Apache License covers the source code and the material authored by this project:
+everything under src/ and ingest/, the database schema in data/sql/schema.sql, the
+source manifest, the topic taxonomy and the party metadata.
+
+It does NOT cover the manifesto text reproduced under data/text/. That text is
+third-party content and is addressed separately below.
+
+
+THIRD-PARTY CONTENT: data/text/
+-------------------------------
+
+data/text/ contains text extracted from the official manifestos and programmatic
+documents of candidates in the 2022 French presidential election. These works are
+protected by copyright, which belongs to their respective authors, parties and
+publishers. The Civis project claims no ownership of them and grants no rights over
+them.
+
+They are reproduced here for documentary, research and citation purposes: the server
+answers questions about political manifestos by quoting them verbatim, and this
+requires a faithful, auditable copy of the source text. Three of the 2022 campaign
+websites have already gone offline, so this copy also serves as a record of material
+no longer served on the live web.
+
+Every document carries, in data/raw/checksums.json and in the corpus metadata:
+
+  - the URL it was retrieved from, and the original URL when that URL is an archive
+  - a SHA-256 checksum of the file as downloaded
+  - the party and candidate it belongs to
+
+The full list of sources, with titles and provenance notes, is in
+ingest/manifest.ts. Running `npm run ingest` reproduces data/text/ from those URLs.
+
+Attribution by rights holder:
+
+  - La France insoumise / Jean-Luc Mélenchon
+  - Rassemblement national / Marine Le Pen
+  - Renaissance / Emmanuel Macron
+  - Parti socialiste / Anne Hidalgo
+  - Les Républicains / Valérie Pécresse
+  - Commission nationale de contrôle de la campagne électorale (official declarations)
+  - TDIE (written answers to its transport and mobility questionnaire)
+
+Some documents survive only through the Internet Archive Wayback Machine, whose
+captures are cited with a pinned timestamp.
+
+The full text of the commercially published edition of "L'Avenir en commun"
+(Éditions du Seuil) is deliberately NOT included.
+
+
+REMOVAL REQUESTS
+----------------
+
+If you hold rights over any document reproduced here and want it removed, open an
+issue on the project repository. Removal requests are honoured without argument: the
+corpus is rebuildable from source URLs, so dropping a document costs the project a
+manifest entry and nothing else.
+
+
+NEUTRALITY
+----------
+
+This project takes no political position. Parties are covered by a uniform rule, and
+the server is built to quote rather than to summarise. Coverage is uneven between
+parties because the parties published unequal volumes in 2022; the server reports
+that imbalance rather than correcting it by truncating anyone.

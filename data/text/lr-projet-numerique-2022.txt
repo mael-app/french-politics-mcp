@@ -1,0 +1,30 @@
+Mis à jour : 10/03/2022 Bâtir un véritable modèle numérique français
+Ce qu'il faut retenir Valérie Pécresse souhaite construire un modèle numérique français, basé sur nos valeurs fondamentales : responsable, moteur d'une souveraineté retrouvée et condition de la fierté française du 21ème siècle. Nous affirmerons le numérique comme un sujet régalien et de souveraineté.
+Bâtir un véritable modèle numérique français
+Le gouvernement d'Emmanuel Macron a totalement laissé de côté la formation dans le domaine du numérique : l'utilisation par l'Education nationale d'outils informatiques reste très marginale et le code n'a pas toujours pas fait son entrée dans les programmes scolaires au collège et au lycée. Conséquence : le secteur du numérique fait face à une pénurie de main-d'œuvre, avec plus de 200 000 emplois vacants.
+Sous le quinquennat Macron, la France a accentué son retard en termes d'inclusion numérique : dans le classement de la Commission européenne de 2020, la France a rétrogradé de la 9ème place à la 12ème place par rapport à 2017. Concrètement, cela signifie que l'accessibilité et la diffusion des compétences numériques dans la société reculent.
+Malgré de grands discours, aucune avancée concrète n'a été réalisée dans le cloud souverain : tant au niveau national qu'européen, les multiples débats n'ont débouché sur rien, alors même que le cloud est un enjeu essentiel de souveraineté. Le gouvernement a dont été contraint de confier la centralisation de nos données médicales à Microsoft, avant d'abandonner le projet en catastrophe.
+– PROPOSITIONS Protéger les données stratégiques des Français et de l'Etat grâce à une loi relative à la souveraineté et à la responsabilité numérique
+Se donner les moyens de disposer d'un cloud souverain pour que la France garde la main sur ses données stratégiques, comme dans le secteur de la santé ou du nucléaire, en s'inspirant de la législation américaine qui permet aux services de renseignement d'avoir connaissance de toutes données détenues par une entreprise américaine.
+Instaurer une préférence française et européenne dans la commande publique grâce à des quotas progressifs d'achats français et européens sur les logiciels et les algorithmes, avec objectif de 50% en 2027.
+Permettre aux acteurs français du numérique d'investir au même niveau que leurs concurrents étrangers en utilisant la précommande publique. C'est la précommande de l'Etat qui a permis aux Etats-Unis d'être les premiers à produire des vaccins pendant la crise COVID.
+Créer un Parquet National Cyber pour lutter contre les cyberattaques visant la France et simplifier le système de dépôt de plainte en ligne, notamment contre les harcèlements numériques.
+Former les talents et libérer l'écosystème numérique sur tout le territoire
+Former un million de talents au numérique d'ici 2030 pour répondre au déficit de compétences :
+Organiser un test national annuel sur le « potentiel numérique » de tous les élèves de seconde dans le cadre des heures d'orientation organisées par les régions, afin de montrer la diversité des métiers mais aussi de faciliter le recrutement des jeunes femmes dans les métiers du numérique.
+Développer des parcours de formations initiales, mais aussi la formation de chômeurs et la reconversion des actifs aux métiers du numérique. Les crédits du Compte personnel de formation (CPF) prioriseront les formations numériques.
+Créer une Ecole Nationale du Numérique pour former des experts de haut niveau qui seront rémunérés et devront ensuite travailler pour l'Etat pendant dix ans.
+Accélérer et amplifier l'émergence de 200 usines dans les nouvelles filières et consolider 20 licornes industrielles d'ici 2027 en renforçant les soutiens à la DeepTech (quantique, bioproduction, etc.).
+Accélérer la transition écologique grâce au numérique
+Soutenir une grande filière de la réparation et du reconditionnement des équipements informatiques créatrice de valeur et d'emplois en France :
+Instaurer un Chèque Récupération de 10 € pour les smartphones et de 50 € pour les ordinateurs, pour tous ceux qui ramènent chez un réparateur français leur matériel numérique usagé.
+Imposer l'ouverture du marché des pièces détachées aux constructeurs et des manuels techniques (comme pour l'automobile).
+Créer un Green Data Hub pour faciliter le croisement des données environnementales des services, agences, territoires et citoyens, et qui agira comme une sorte de « Cockpit de la donnée environnementale en temps réel ».
+Mettre le numérique au service des territoires et garantir l'égalité d'accès pour tous les Français
+Accélérer le déploiement du Très Haut Débit (THD) fixe et mobile en instaurant un bonus financier pour les collectivités qui achèveront le déploiement avant fin 2024. Tous les besoins des territoires ruraux seront recensés dès l'été 2022.
+Mettre fin aux zones blanches dans les territoires en accélérant les investissements d'infrastructures de téléphonie 4G. La sécurité et la maintenance de nos câbles sous-marins sera garantie.
+Intégrer le numérique dans l'éducation de nos enfants en les protégeant des risques associés
+Intégrer le codage dans les programmes scolaires dès la 6ème.
+Adopter une loi « Protection de l'enfance face aux menaces du numériques » :
+Créer l'équivalent du « Children's code » britannique avec des mesures concrètes comme l'arrêt des notifications après 21h, le non-enchaînement automatique des vidéos et un droit à l'effacement des données à la majorité.
+Dans la lignée des avancées portées par notre famille politique au niveau européen, ouvrir la réflexion sur la fin de l'anonymat pour que les poursuites judiciaires dans le monde numérique aient lieu dans les mêmes conditions que dans le monde physique.
