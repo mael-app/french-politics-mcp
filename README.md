@@ -4,6 +4,30 @@ Serveur MCP qui donne accès aux **programmes officiels de l'élection présiden
 
 Le serveur ne raisonne pas et ne rédige aucune synthèse. Il retrouve des passages, renvoie leur **texte exact** et leur **référence complète**, et dit explicitement quand le corpus ne documente pas un sujet. La synthèse revient au modèle client, à partir de citations vérifiables.
 
+## Se connecter
+
+Le serveur est déployé, public et en lecture seule :
+
+```
+https://french-politics-mcp.mael-app.workers.dev/mcp
+```
+
+Avec Claude Code :
+
+```bash
+claude mcp add --transport http civis https://french-politics-mcp.mael-app.workers.dev/mcp
+```
+
+Avec l'inspecteur MCP, en transport **Streamable HTTP** :
+
+```bash
+npx @modelcontextprotocol/inspector --cli \
+  https://french-politics-mcp.mael-app.workers.dev/mcp \
+  --transport http --method tools/list
+```
+
+Pour un client qui ne parle que stdio, passer par le proxy `mcp-remote`. Aucune authentification n'est requise, le corpus est public.
+
 ## Corpus
 
 **158 documents, 4 704 passages citables, 3,4 millions de caractères**, pour ce seul scrutin. Dix thèmes comparables, tous couverts par les cinq partis.
@@ -144,7 +168,7 @@ wrangler d1 create civis-corpus     # coller le database_id dans wrangler.jsonc
 npm run ingest:sql                  # regénère data/sql/seed.sql
 npm run db:reset:remote             # applique le schéma et le corpus
 npm run deploy
-claude mcp add --transport http civis https://<worker>.workers.dev/mcp
+claude mcp add --transport http civis https://french-politics-mcp.mael-app.workers.dev/mcp
 ```
 
 `db:reset:remote` recrée les tables : le corpus est un artefact généré, jamais modifié en place.
