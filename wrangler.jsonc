@@ -11,10 +11,7 @@
     {
       "binding": "DB",
       "database_name": "civis-corpus",
-      // Placeholder : `wrangler d1 create civis-corpus` renvoie l'identifiant
-      // réel à coller ici. Le développement local (`--local`) n'en a pas besoin,
-      // il travaille sur un SQLite dans .wrangler/state.
-      "database_id": "00000000-0000-0000-0000-000000000000"
+      "database_id": "075cc74e-de6d-4dad-b686-b4e3e91f7b88"
     }
   ]
 }
