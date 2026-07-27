@@ -53,8 +53,9 @@ On a fresh clone, `corpus.json` and `seed.sql` are absent. Rebuild them offline 
 the committed `data/text/` with `npm run ingest:normalize && npm run ingest:sql`.
 Only `ingest:fetch` touches the network.
 
-**Never run `wrangler deploy` or `db:reset:remote`.** The Cloudflare account on this
-machine is not the project's. Deployment is the maintainer's job.
+**Never run `wrangler deploy` or `db:reset:remote`.** Deployment is the maintainer's
+job and touches their Cloudflare account. Build and verify locally instead:
+`wrangler deploy --dry-run` bundles without contacting Cloudflare.
 
 ## CI
 
@@ -106,9 +107,13 @@ descriptions, notices and prompt templates are product content and stay French.
 
 ## Open source hygiene
 
-The repository is public. Before committing, check that no credential, account
-identifier or personal data is added. `database_id` in `wrangler.jsonc` is a
-placeholder and must stay one.
+The repository is public. Before committing, check that no credential or personal
+data is added.
+
+`database_id` in `wrangler.jsonc` is a D1 identifier, not a secret, and is meant to
+be committed once the database exists: it is useless without account credentials, and
+Cloudflare's own templates commit it. What must never be committed is an API token or
+an account ID with credentials attached.
 
 Code is Apache-2.0. The manifesto text under `data/text/` is third-party copyrighted
 content, reproduced for documentary and citation purposes and explicitly outside the
