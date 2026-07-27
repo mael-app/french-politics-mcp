@@ -43,13 +43,17 @@ const MAX_REQUIRED_COVERAGE = 3;
  * How many query stems a passage must contain to be kept.
  *
  * FTS5 combines terms with OR, so without this a passage sharing a single generic
- * word with the query comes back as if it answered it. The threshold scales with
- * query length: a flat requirement of two let a six-word question through on any
- * two common words, which is how a question about space exploration came back with
- * a passage on ecological transition.
+ * word with the query comes back as if it answered it.
+ *
+ * A one or two word query must match in full: someone typing "intelligence
+ * artificielle" means the pair, not either half, and accepting either returned
+ * passages about economic intelligence. Beyond that the threshold scales as half
+ * the query length, since a long question phrased loosely should not have to match
+ * every word.
  */
 export function requiredCoverage(stemCount: number): number {
-  return Math.min(MAX_REQUIRED_COVERAGE, Math.max(1, Math.ceil(stemCount / 2)));
+  if (stemCount <= 2) return stemCount;
+  return Math.min(MAX_REQUIRED_COVERAGE, Math.ceil(stemCount / 2));
 }
 
 /**
