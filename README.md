@@ -1,5 +1,11 @@
 # Civis — `french-politics-mcp`
 
+[![CI](https://img.shields.io/github/actions/workflow/status/mael-app/french-politics-mcp/ci.yml?branch=main&label=CI)](https://github.com/mael-app/french-politics-mcp/actions/workflows/ci.yml)
+[![Licence Apache 2.0](https://img.shields.io/badge/licence-Apache%202.0-blue)](LICENSE)
+[![MCP Streamable HTTP](https://img.shields.io/badge/MCP-Streamable%20HTTP-6f42c1)](https://modelcontextprotocol.io)
+[![État du Worker](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Ffrench-politics-mcp.mael-app.workers.dev%2Fhealth&query=%24.status&label=Cloudflare%20Worker&color=f38020)](https://french-politics-mcp.mael-app.workers.dev/health)
+[![Corpus](https://img.shields.io/badge/corpus-4%20704%20passages-informational)](#corpus)
+
 Serveur MCP qui donne accès aux **programmes officiels de l'élection présidentielle française de 2022**, pour cinq partis, avec une contrainte : ne jamais répondre sans source primaire.
 
 Le serveur ne raisonne pas et ne rédige aucune synthèse. Il retrouve des passages, renvoie leur **texte exact** et leur **référence complète**, et dit explicitement quand le corpus ne documente pas un sujet. La synthèse revient au modèle client, à partir de citations vérifiables.
