@@ -32,9 +32,9 @@
     "@commitlint/config-conventional": "^21.2.0",
     "@types/node": "^26.1.2",
     "husky": "^9.1.7",
-    "node-html-parser": "^9.0.0",
+    "node-html-parser": "^9.0.1",
     "tsx": "^4.19.0",
     "typescript": "^7.0.2",
-    "wrangler": "^4.114.0"
+    "wrangler": "^4.116.0"
   }
 }
